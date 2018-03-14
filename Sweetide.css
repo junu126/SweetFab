@@ -1,0 +1,59 @@
+img{     
+    text-align: center;
+    color: white;
+    background-color : black;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    }
+body{
+    background-image: url("./background.jpg");
+    background-position: center 40%;
+    background-size: 100%;
+    margin: 0 0 0 0;
+}
+.tag{
+    position: absolute;
+    width: 20vw;
+    height: 60vh;
+    left: 20vw;
+    top: 25vh;
+    background-color: white;
+    opacity: 0.5;
+}
+.tag2{
+    position: absolute;
+    width: 40vw;
+    height: 60vh;
+    left: 40vw;
+    top: 25vh;
+    background-color: black;
+    opacity: 0.5;
+}
+.a{
+    position: absolute;
+    left: 12vw;
+    top: 5vh;
+    color:white;
+    font-size: 40pt;
+    font-family: initial;
+}
+input{
+    position: absolute;
+    left: 52vw;
+    top: 43vh;
+
+    width: 15vw;
+    background: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+
+    padding-bottom: 0.2vh;
+    border-bottom: white 0.4vh solid;
+    size: 10px;   
+}
+.ID{
+    
+}
