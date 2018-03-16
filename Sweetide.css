@@ -2,48 +2,76 @@ img{
     text-align: center;
     color: white;
     background-color : black;
-    opacity: 0.5;
     height: 100%;
     width: 100%;
     }
+.img{
+    
+    position: absolute;
+
+    width: 15vw;
+    height: 40vh;
+    left: 25vw;
+    top: 27vh;
+}
 body{
     background-image: url("./background.jpg");
     background-position: center 40%;
     background-size: 100%;
     margin: 0 0 0 0;
+    font-family: 'Nanum Square';
 }
 .tag{
     position: absolute;
-    width: 20vw;
-    height: 60vh;
-    left: 20vw;
-    top: 25vh;
-    background-color: white;
-    opacity: 0.5;
+    width: 21vw;
+    height: 53vh;
+    left: 22vw;
+    top: 20vh;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 .tag2{
     position: absolute;
-    width: 40vw;
-    height: 60vh;
-    left: 40vw;
-    top: 25vh;
-    background-color: black;
-    opacity: 0.5;
+    width: 32vw;
+    height: 53vh;
+    left: 43vw;
+    top: 20vh;
+    background-color: rgba(0, 0, 0, 0.5)
 }
 .a{
     position: absolute;
-    left: 12vw;
-    top: 5vh;
+    left: 53vw;
+    top: 23vh;
     color:white;
-    font-size: 40pt;
-    font-family: initial;
+    font-size: 34pt;
+    font-weight: bold;
+    font-family: 'Nanum Square';
+    z-index: 4;
 }
 input{
     position: absolute;
-    left: 52vw;
-    top: 43vh;
+    left: 50vw;
+    top: 37vh;
+    font-family: 'Nanum Square';
+    z-index: 2;
+    color: white;
+    font-size: 30px;
+    width: 20vw;
+    background: transparent;
+    border: 0px;
 
-    width: 15vw;
+    padding-bottom: 0.2vh;
+    border-bottom: white 0.4vh solid;
+    font-size: 28px;   
+}
+#inputpass{
+    position: absolute;
+    left: 50vw;
+    top: 46vh;
+    color: white;
+
+    z-index: 2;
+    font-size: 30px;
+    width: 20vw;
     background: transparent;
     border-top-color: transparent;
     border-bottom-color: transparent;
@@ -52,8 +80,80 @@ input{
 
     padding-bottom: 0.2vh;
     border-bottom: white 0.4vh solid;
-    size: 10px;   
+    font-size: 28px;   
 }
-.ID{
+#ID{
+    z-index: 1;
+    color: white;
+    font-size: 32px;
+    padding: 2 2 2 2;
+    position: absolute;
+    left: 47vw;
+    top: 37vh;
+}
+#pass{
+    z-index: 1;
+    color: white;
+    font-size: 32px;
+    padding: 2 2 2 2;
+    position: absolute;
+    left: 46vw;
+    top: 45vh;
+}
+.loginbut{
+    width: 10vw;
+    border: none;
+    background-color: transparent;
+    font-family: 'Nanum Square';
+    color: #ffb933;
+    font-size: 13pt;
+    text-decoration: none;
+
+    position: absolute;
+    z-index: 2;
+    left: 49vw;
+    top: 65vh;
+}
+.loginfind{
+    width: 20wh;
+    border: none;
+    background-color: transparent;
+    font-family: 'Nanum Square';
+    color: #ffb933;
+    font-size: 13pt;
+    text-decoration: none;
+
+    position: absolute;
+    left: 56vw;
+    top: 65vh;
+}
+.l{
+    position: absolute;
+    left: 54vw;
+    top: 64vh;
+    color: white;
+    font-size: 28px;
+}
+.loginbutton{
+    width: 21vw;
+    height: 7vh;
+    background-color: orange;
+    color: white;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Nanum Square';
+    font-size: 14pt;
+    border-radius: 5pt;
     
+
+    position: absolute;
+    z-index: 4;
+    left: 48vw;
+    top: 55vh;
+    
+}
+.loginbutton:hover{
+    background-color: yellow;
+    color: orange;
 }
